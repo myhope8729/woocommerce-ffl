@@ -1,0 +1,83 @@
+.ffl_dealer_wrapper{
+	display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.ffl-dealer-text{
+	margin-bottom: 20px;
+}
+
+#ffl_dealer_modal{
+	margin-top:50px;
+}
+
+.store-locator-container .form-control-label{
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.store-locator-container .button-find-dealer{
+	margin-top: 25px;
+}
+
+.store-result-list{
+	padding: 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.store-result-list h3{
+	text-align: center;
+	width: 100%;
+}
+.store-result-list .form-check-input{
+	vertical-align: top;
+}
+
+.selected-store{
+	border:1px solid #e0e0e0;
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+
+.selected-store .store-header{
+	padding:10px 0 12px 20px;
+	background-color: #f2f2f2;
+	font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.selected-store .store-body{
+	font-size: 14px;
+	padding:20px;
+}
+
+.selected-store .store-body .store-name{
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.selected-store .store-body address{
+	margin-bottom: 0;
+}
+
+.woocommerce-cart-form .variation-SELECTEDFFLDEALER, .woocommerce-checkout-review-order .variation-SELECTEDFFLDEALER{
+	display: block;
+    width: 100%;
+    clear: left;
+}
+
+.woocommerce-cart-form .variation-SELECTEDFFLDEALER .dealer_name,
+.woocommerce-checkout-review-order .variation-SELECTEDFFLDEALER .dealer_name,
+.order_details .wc-item-meta li p .dealer_name{
+	font-weight: 600;
+}
+
+.order_details .wc-item-meta li p{
+	clear: left;
+}
